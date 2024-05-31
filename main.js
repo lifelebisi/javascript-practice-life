@@ -1,4 +1,2 @@
-let a= 10
-let b= 2
-let answer =a+b
-console.log('12');
+op= prompt(1); prompt= (*); prompt ( 23)
+console.log('24')
