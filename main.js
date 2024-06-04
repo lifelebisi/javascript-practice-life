@@ -1,5 +1,16 @@
- let('5')= prompt( 'enter num1')
-let ('+')= prompt ( 'enter opnode')
-let ('20')= prompt ( 'enter second number')
+let num1= Number(prompt('enter Number'));
+let op= Number(prompt('enter oparator'));
 
-console.log('25')
+let num2 = Number(prompt('enter second number'))
+ console.log('2')
+ if(op==='+')
+ {  console.log (num1+num2)}
+ else if (op ==='-')
+ { console.log (num1-num2)}
+ else if (op ==='/')
+ { console.log (num1/num2)}
+ else if (op ==='*')
+ { console.log (num1*num2)}
+ else console.log(" invalid oparater");
+
+
